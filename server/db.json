@@ -1,0 +1,778 @@
+{
+  "users": [
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Sumit Saha",
+      "id": 1
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Akash Ahmed",
+      "id": 2
+    },
+    {
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Saad Hasan",
+      "id": 3
+    },
+    {
+      "email": "safayanshuvo@gmail.com",
+      "password": "$2a$10$lGM/2qQZJ1gGVuTUAV6wreIszzqEsffM/Yx8X.Z1ht/QvNK56IE2G",
+      "name": "Saffaullah Shuvo",
+      "id": 4
+    },
+    {
+      "email": "gg@gmail.com",
+      "password": "$2a$10$r0axlG/05.LJ5iJckdKv9uw3Mzs7nP48N/9bYs3F.sfbEAi3Dun16",
+      "name": "gg",
+      "id": 5
+    }
+  ],
+  "conversations": [
+    {
+      "participants": "safayanshuvo@gmail.com-sumit@learnwithsumit.com",
+      "users": [
+        {
+          "email": "safayanshuvo@gmail.com",
+          "name": "Saffaullah Shuvo",
+          "id": 4
+        },
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "Sumit Saha",
+          "id": 1
+        }
+      ],
+      "message": "hey bro",
+      "timestamp": 1701370068983,
+      "id": 1
+    },
+    {
+      "participants": "safayanshuvo@gmail.com-gg@gmail.com",
+      "users": [
+        {
+          "email": "safayanshuvo@gmail.com",
+          "name": "Saffaullah Shuvo",
+          "id": 4
+        },
+        {
+          "email": "gg@gmail.com",
+          "name": "gg",
+          "id": 5
+        }
+      ],
+      "message": "ঘুমাই গেলেন নাকি মামু",
+      "timestamp": 1701373919883,
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "message": "hello",
+      "timestamp": 1701287619599,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "conversationId": 1,
+      "message": "ki obosta",
+      "timestamp": 1701287645327,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "conversationId": 2,
+      "message": "toke ami mere felbo",
+      "timestamp": 1701287746271,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 3
+    },
+    {
+      "conversationId": 2,
+      "message": "tor eto boro shahos",
+      "timestamp": 1701287805016,
+      "sender": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "receiver": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "conversationId": 2,
+      "message": "ke re bara",
+      "timestamp": 1701290334876,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 5
+    },
+    {
+      "conversationId": 1,
+      "message": "tor nanir heda",
+      "timestamp": 1701290363156,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 6
+    },
+    {
+      "conversationId": 1,
+      "message": "ki obosta apaner",
+      "timestamp": 1701347348035,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 7
+    },
+    {
+      "conversationId": 1,
+      "message": "hdbdhbhdbhbhbchbc",
+      "timestamp": 1701349195158,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 8
+    },
+    {
+      "conversationId": 1,
+      "message": "gg",
+      "timestamp": 1701351802723,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 9
+    },
+    {
+      "conversationId": 1,
+      "message": "fjnvjfnvjf",
+      "timestamp": 1701351818606,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 10
+    },
+    {
+      "conversationId": 1,
+      "message": "kcdncjndjcndjc",
+      "timestamp": 1701351927548,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 11
+    },
+    {
+      "conversationId": 1,
+      "message": "hello bro",
+      "timestamp": 1701354896716,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 12
+    },
+    {
+      "conversationId": 1,
+      "message": "gg",
+      "timestamp": 1701354948652,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 13
+    },
+    {
+      "conversationId": 1,
+      "message": "কি খবর?",
+      "timestamp": 1701355304788,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 14
+    },
+    {
+      "conversationId": 1,
+      "message": "কন খবার নাই...।",
+      "timestamp": 1701355379156,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 15
+    },
+    {
+      "conversationId": 1,
+      "message": "koi thakos?",
+      "timestamp": 1701355477453,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 16
+    },
+    {
+      "conversationId": 2,
+      "message": "sommossa ki tor",
+      "timestamp": 1701355544061,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 17
+    },
+    {
+      "conversationId": 2,
+      "message": "gg",
+      "timestamp": 1701358767787,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 18
+    },
+    {
+      "conversationId": 2,
+      "message": "gggggggggggggggggggggg",
+      "timestamp": 1701358810587,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 19
+    },
+    {
+      "conversationId": 2,
+      "message": "gggggggggggggggggggggg",
+      "timestamp": 1701358810587,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 20
+    },
+    {
+      "conversationId": 2,
+      "message": "bsar ki obosta",
+      "timestamp": 1701359009619,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 21
+    },
+    {
+      "conversationId": 2,
+      "message": "kono problem nai to",
+      "timestamp": 1701359018395,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 22
+    },
+    {
+      "conversationId": 2,
+      "message": " na hower i kotha",
+      "timestamp": 1701359028699,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 23
+    },
+    {
+      "conversationId": 2,
+      "message": "lol vai",
+      "timestamp": 1701359037843,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 24
+    },
+    {
+      "conversationId": 2,
+      "message": "ki dunia shlo",
+      "timestamp": 1701359046828,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 25
+    },
+    {
+      "conversationId": 1,
+      "message": "khya dimu",
+      "timestamp": 1701365720684,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 26
+    },
+    {
+      "conversationId": 1,
+      "message": "hey bro",
+      "timestamp": 1701370068983,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "id": 27
+    },
+    {
+      "conversationId": 2,
+      "message": "ki kos balda",
+      "timestamp": 1701371409534,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 28
+    },
+    {
+      "conversationId": 2,
+      "message": "gggggggggggggggggggggggggggggggggggg",
+      "timestamp": 1701371532910,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 29
+    },
+    {
+      "conversationId": 2,
+      "message": "jjjjjjjjjjjjj",
+      "timestamp": 1701371586127,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 30
+    },
+    {
+      "conversationId": 2,
+      "message": "ggggggggggg",
+      "timestamp": 1701371676863,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 31
+    },
+    {
+      "conversationId": 2,
+      "message": "kkk",
+      "timestamp": 1701371746302,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 32
+    },
+    {
+      "conversationId": 2,
+      "message": "hh",
+      "timestamp": 1701371751158,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 33
+    },
+    {
+      "conversationId": 2,
+      "message": "kdkdkkdkd",
+      "timestamp": 1701371796934,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 34
+    },
+    {
+      "conversationId": 2,
+      "message": "dddddddddd",
+      "timestamp": 1701371833919,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 35
+    },
+    {
+      "conversationId": 2,
+      "message": "aaaaaaaaaaaaaaa",
+      "timestamp": 1701371897655,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 36
+    },
+    {
+      "conversationId": 2,
+      "message": "kire vhudai",
+      "timestamp": 1701371991895,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 37
+    },
+    {
+      "conversationId": 2,
+      "message": "gggggggggggggg",
+      "timestamp": 1701373116097,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 38
+    },
+    {
+      "conversationId": 2,
+      "message": "মেসেজ কি যাচ্ছে ভাই।",
+      "timestamp": 1701373646969,
+      "sender": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "receiver": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "id": 39
+    },
+    {
+      "conversationId": 2,
+      "message": "হরে পাগলা আসতেছে।",
+      "timestamp": 1701373685218,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 40
+    },
+    {
+      "conversationId": 2,
+      "message": "সেই মজা লাগতেসে",
+      "timestamp": 1701373706515,
+      "sender": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "receiver": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "id": 41
+    },
+    {
+      "conversationId": 2,
+      "message": "কঠিন জিনিস বানাইলেন মামু",
+      "timestamp": 1701373731378,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 42
+    },
+    {
+      "conversationId": 2,
+      "message": "ভাল লাগে কেন এত",
+      "timestamp": 1701373904306,
+      "sender": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "receiver": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "id": 43
+    },
+    {
+      "conversationId": 2,
+      "message": "ঘুমাই গেলেন নাকি মামু",
+      "timestamp": 1701373919883,
+      "sender": {
+        "email": "gg@gmail.com",
+        "name": "gg",
+        "id": 5
+      },
+      "receiver": {
+        "email": "safayanshuvo@gmail.com",
+        "name": "Saffaullah Shuvo",
+        "id": 4
+      },
+      "id": 44
+    }
+  ]
+}
