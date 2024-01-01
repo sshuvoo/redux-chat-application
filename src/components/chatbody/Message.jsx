@@ -11,7 +11,7 @@ export default function Message({ receiver, message }) {
       >
          <div
             className={`relative max-w-xl px-4 py-2 text-gray-700 rounded shadow ${
-               receiver === email ? 'bg-blue-400/30' : 'bg-pink-400/30'
+               receiver === email ? 'bg-blue-100' : 'bg-pink-100'
             }`}
          >
             <span className="block">{message}</span>

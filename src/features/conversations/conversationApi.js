@@ -6,8 +6,13 @@ const conversationApi = apiSlice.injectEndpoints({
    endpoints: ({ query, mutation }) => ({
       getConversations: query({
          query: (email) => ({
-            url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=1&_limit=5`,
+            url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=1&_limit=13`,
          }),
+         transformResponse: (response, meta) => {
+            const totalConversations =
+               meta.response.headers.get('X-Total-Count');
+            return { response, totalConversations };
+         },
          onCacheEntryAdded: async (
             arg,
             { updateCachedData, cacheDataLoaded, cacheEntryRemoved }
@@ -28,7 +33,7 @@ const conversationApi = apiSlice.injectEndpoints({
                   const exist = data.participants.split('-').includes(arg);
                   if (exist) {
                      updateCachedData((draft) => {
-                        const cashedConversation = draft.find(
+                        const cashedConversation = draft.response.find(
                            (conversation) => Number(conversation.id) === data.id
                         );
                         cashedConversation.message = data.message;
@@ -41,6 +46,31 @@ const conversationApi = apiSlice.injectEndpoints({
             }
             await cacheEntryRemoved;
             socket.close();
+         },
+      }),
+      getMoreConversations: query({
+         query: ({ email, pageNo }) => ({
+            url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=${pageNo}&_limit=13`,
+         }),
+         onQueryStarted: async ({ email }, { queryFulfilled, dispatch }) => {
+            try {
+               const { data: conversations } = await queryFulfilled;
+               if (conversations?.length > 0) {
+                  // Update conversation data pecimistically
+                  dispatch(
+                     apiSlice.util.updateQueryData(
+                        'getConversations',
+                        email,
+                        (draft) => ({
+                           response: [...draft.response, ...conversations],
+                           totalConversations: draft.totalConversations,
+                        })
+                     )
+                  );
+               }
+            } catch (error) {
+               console.log(error);
+            }
          },
       }),
       getConversation: query({
@@ -89,10 +119,11 @@ const conversationApi = apiSlice.injectEndpoints({
                apiSlice.util.updateQueryData(
                   'getConversations',
                   myEmail,
-                  (chacheConversations) => {
-                     const updateableConversation = chacheConversations.find(
-                        (conversation) => Number(conversation.id) === arg.id
-                     );
+                  (cacheConversations) => {
+                     const updateableConversation =
+                        cacheConversations.response.find(
+                           (conversation) => Number(conversation.id) === arg.id
+                        );
                      updateableConversation.message = arg.data.message;
                      updateableConversation.timestamp = arg.data.timestamp;
                   }
@@ -139,3 +170,5 @@ export const {
    useAddConversationMutation,
    useUpdateConversationMutation,
 } = conversationApi;
+
+export default conversationApi;

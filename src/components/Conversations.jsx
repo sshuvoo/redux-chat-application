@@ -28,7 +28,7 @@ C139.689,120.449,136.331,117.092,132.189,117.092z"
             </svg>
          </div>
          {isOpen && <Modal control={setOpen} />}
-         <ul className="overflow-auto">
+         <ul className="overflow-y-auto max-h-[calc(100vh-129px)]">
             <ConversationItems />
          </ul>
       </div>
